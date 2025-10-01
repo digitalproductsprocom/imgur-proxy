@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/imgur-proxy.ts": {
+      "runtime": "nodejs20.x",
+      "memory": 128,
+      "maxDuration": 10,
+      "regions": ["iad1", "sfo1", "cle1"]
+    }
+  }
+}
